@@ -1,0 +1,9 @@
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\bin\Debug\JourneyManTrains.exe.config
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\bin\Debug\JourneyManTrains.exe
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\bin\Debug\JourneyManTrains.pdb
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\obj\Debug\JourneyMan4.csprojResolveAssemblyReference.cache
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\obj\Debug\JourneyManTrains.Properties.Resources.resources
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\obj\Debug\JourneyMan4.csproj.GenerateResource.Cache
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\obj\Debug\JourneyManTrains.exe
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\obj\Debug\JourneyManTrains.pdb
+D:\Practice\JourneyMan\JourneyManTrains\JourneyManTrains\obj\Debug\JourneyManTrains.frmMain.resources

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyMan3", "JourneyManBinarySearch\JourneyMan3.csproj", "{7469F637-C569-4E15-B295-955DA568EBEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyManBinarySearch.Tests", "JourneyManBinarySearch.Tests\JourneyManBinarySearch.Tests.csproj", "{F2C09A2C-1927-47D6-8561-CBF6B46B4041}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7469F637-C569-4E15-B295-955DA568EBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7469F637-C569-4E15-B295-955DA568EBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7469F637-C569-4E15-B295-955DA568EBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7469F637-C569-4E15-B295-955DA568EBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C09A2C-1927-47D6-8561-CBF6B46B4041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C09A2C-1927-47D6-8561-CBF6B46B4041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C09A2C-1927-47D6-8561-CBF6B46B4041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C09A2C-1927-47D6-8561-CBF6B46B4041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

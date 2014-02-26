@@ -1,0 +1,63 @@
+﻿@using JourneyMan2.Models
+@model List<JourneyMan2.Models.SaleItem>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table>
+    <tr>
+        <td>Item</td>
+        <td>Amount</td>
+        <td>Quantity</td>
+        <td>Price</td>
+    </tr>
+    @foreach (SaleItem item in Model)
+    {
+        <tr>
+            <td>@item.Description</td>
+            <td>@item.Amount</td>
+            <td><input type="text" id="txtQuantity"/></td>
+            <td></td>
+        </tr>
+    
+    }
+</table>
+
+
+<script language="javascript" type="text/javascript">
+    $(document).ready(function () {
+        $(':text').each(function() {
+         {
+                try {
+
+                    var newItemData = { "item": this.value, "numberOfItems": $("#txtQuantity").val() };
+
+                    try {
+                        $.ajax({
+                            url: '@Url.Action("getTotal", "Home")',
+                            type: 'POST',
+                            dataType: 'json',
+                            contentType: 'application/json',
+                            data: JSON.stringify({ model: newItemData }),
+                            success: function (data) {
+                                $('label[id=lblMessage]').html(data);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                //...
+                            }
+                        });
+                    }
+                    catch (e) {
+                        alert(e);
+                    }
+                }
+                catch (e1) {
+                }
+            
+
+        });
+ });
+
+
+       </script>

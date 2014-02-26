@@ -1,0 +1,5 @@
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Database\bin\Debug\JourneyMan4.Database.dacpac
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Database\obj\Debug\JourneyMan4.Database.dll
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Database\obj\Debug\JourneyMan4.Database.pdb
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Database\bin\Debug\JourneyMan4.Database.dll
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Database\bin\Debug\JourneyMan4.Database.pdb

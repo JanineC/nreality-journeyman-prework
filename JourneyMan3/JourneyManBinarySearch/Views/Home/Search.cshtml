@@ -1,0 +1,34 @@
+﻿@model System.Collections.Generic.List<JourneyManBinarySearch.Models.Movie>
+
+
+<link rel="stylesheet" href="~/Content/bootstrap.min.css" ">
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+
+<table class="table table-striped table-bordered">
+     <tr>
+         <th>Movie</th>
+         <th>Description</th>
+         <th>Genre</th>
+          <th>Year</th>
+        </tr>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>
+                    @movie.Name
+                </td>                
+                <td>
+                    @movie.Description
+                </td>
+                <td>
+                    @movie.Genre
+                </td>
+                <td>
+                    @movie.Year
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

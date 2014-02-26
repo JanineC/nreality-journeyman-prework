@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyMan4", "JourneyManTrains\JourneyMan4.csproj", "{1F7C27C6-0F81-496B-BA84-960D663F511C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyMan4.Tests", "JourneyMan4.Tests\JourneyMan4.Tests.csproj", "{74428566-0989-469F-AD7C-50FAEF916CF0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JourneyMan4.Database", "JourneyMan4.Database\JourneyMan4.Database.sqlproj", "{8BA537E7-5AF1-4958-A228-D64A4E4AB1A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F7C27C6-0F81-496B-BA84-960D663F511C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7C27C6-0F81-496B-BA84-960D663F511C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7C27C6-0F81-496B-BA84-960D663F511C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7C27C6-0F81-496B-BA84-960D663F511C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74428566-0989-469F-AD7C-50FAEF916CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74428566-0989-469F-AD7C-50FAEF916CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74428566-0989-469F-AD7C-50FAEF916CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74428566-0989-469F-AD7C-50FAEF916CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA537E7-5AF1-4958-A228-D64A4E4AB1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA537E7-5AF1-4958-A228-D64A4E4AB1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA537E7-5AF1-4958-A228-D64A4E4AB1A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8BA537E7-5AF1-4958-A228-D64A4E4AB1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA537E7-5AF1-4958-A228-D64A4E4AB1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA537E7-5AF1-4958-A228-D64A4E4AB1A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

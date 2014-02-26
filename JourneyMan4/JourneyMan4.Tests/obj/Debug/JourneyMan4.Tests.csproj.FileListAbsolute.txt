@@ -1,0 +1,5 @@
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Tests\bin\Debug\JourneyMan4.Tests.dll
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Tests\bin\Debug\JourneyMan4.Tests.pdb
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Tests\obj\Debug\JourneyMan4.Tests.csprojResolveAssemblyReference.cache
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Tests\obj\Debug\JourneyMan4.Tests.dll
+D:\Practice\JourneyMan\JourneyManTrains\JourneyMan4.Tests\obj\Debug\JourneyMan4.Tests.pdb

@@ -1,0 +1,45 @@
+﻿@using System.Diagnostics.Eventing.Reader
+<body onload="myFunction()">
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Problem 1 : </h1>
+                <h2>Fizz Buzz</h2>
+            </hgroup>
+        </div>
+    </section>
+    <div id="myTable" style="vertical-align: center">
+        
+        <table id="memberlist" >
+            <tbody>
+                <tr>
+                    @for (int x = 1; x <= 100; x++)
+                    {
+                        if (x%3 == 0 && x%5 == 0)
+                        {
+                            <td id ="@("cell" + x)">FizzBuzz</td>
+                        }
+                        else if (x % 3 == 0)
+                        {
+                            <td id ="@("cell" + x)">Fizz</td>
+                        }
+                        else if (x % 5 == 0)
+                        {
+                            <td id ="@("cell" + x)">Buzz</td>
+                        }
+                        else
+                        {
+                            <td id ="@("cell" + x)">@x</td>
+                        }
+                    
+                        if( x % 10 == 0 ){
+                            @:</tr><tr>
+                        }
+                    }
+                </tr>
+            </tbody>
+        </table>
+       
+    </div>
+</div>
